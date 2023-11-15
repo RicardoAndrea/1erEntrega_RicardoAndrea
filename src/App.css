@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(198, 31, 34);
+  }
+  .header{
+    background-color: rgb(148, 34, 39);
+    display: flex;
+    justify-content: space-around;
+  }
+  h1{
+    padding-left: .625rem;
+    color:beige;
+  }
+  
+  .main{
+    align-self: center;
+  }
+  .navbar{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    gap: 2.1875rem;
+  }
+  li a{
+    text-decoration: none;
+    color: beige;
+  }
+  li a:hover{
+    color: goldenrod;
+  }
+  .cart{
+    display: flex;
+    gap: .625rem;
+  }
+  .logo{
+    display: flex;
+    margin-top: .625rem;
+  }
+  .saludo{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    color: beige;
+  }
+  .fondo-main{
+    width: auto;
+    height: 18.75rem;
+  }
+

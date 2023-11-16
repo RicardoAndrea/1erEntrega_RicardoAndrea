@@ -8,9 +8,9 @@ function NavBar() {
   return (
     <>
       <Navbar bg="light" data-bs-theme="light">
-        <Container>
+        <Container className='main'>
           <Navbar.Brand href="#home"> <Logo/> </Navbar.Brand>
-          <Nav className="me-auto">
+          <Nav className=" d-flex align-items-center">
             <Nav.Link href="#home">  Quienes Somos   </Nav.Link>
             <Nav.Link href="#features">  Bancos  </Nav.Link>
             <Nav.Link href="#pricing">  Bebederos </Nav.Link>
